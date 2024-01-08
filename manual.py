@@ -8,6 +8,6 @@ def show_manual():
            "/manual (ou /man) -> Permet d'acceder a ce manuel\n" \
            "/show_all (ou /sa) -> Permet d'afficher votre historique\n" \
            "/show_last (ou /sl) -> Permet d'afficher uniquement la dernière commande rentrée (concernant Snow)\n" \
-           "/clear (ou /c) -> Permet"
+           "/clear (ou /c) -> Permet de supprimer votre l'historique\n```"
 
     return ret
