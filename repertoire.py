@@ -9,9 +9,9 @@ class Repertoire:
         bucket = self.buckets[index]
         for i in range(len(bucket)):
             if bucket[i][0] == key:
-                bucket[int(i)] = (key, data)
+                bucket[i] = (key, data)
                 return
-        bucket.append(key, data)
+        bucket.append((key, data))
 
     def get(self, key):
         index = key % len(self.buckets)
